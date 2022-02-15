@@ -1,0 +1,149 @@
+body{
+    font-family: 'Righteous', cursive !important; 
+    background-color: #F1F3FA !important;
+}
+.main{
+    position: relative;
+
+}
+
+.contact{
+   text-align: center;
+   padding-top: 2%;
+}
+.contact_heading{
+    color: black;
+   
+    
+}
+.contact_message{
+    
+    color: #838383;
+    font-weight: 400;
+}
+.contact_sub_heading{
+    color: #0008BC;
+    font-size: 13px;
+    font-weight: 400;
+}
+.container{
+    margin-top: 30px;
+    background-color: white;
+    background: #FFFFFF;
+    box-shadow: 0px 4.45341px 8.90681px rgba(0, 0, 0, 0.25);
+    border-radius: 13.3602px;
+    
+}
+.leftcard{
+    background-color:  #29006B;
+position: relative;
+    border-radius: 8.90681px;
+  
+}
+.leftcard_heading{
+    font-style: normal;
+font-weight: normal;
+font-size: 22px;
+line-height: 28px;
+color: white;
+}
+.leftcard_message{
+
+font-weight: normal;
+font-size: 10px;
+line-height: 12px;
+text-align: justify;
+color: #BBBBBB;
+}
+.icon{
+    color:#87C700;
+}
+.details{
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+letter-spacing: 0.1em;
+color: #FFFFFF;
+display: flex;
+
+}
+.detail{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+   
+    
+    }
+    .Address{
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 15px;
+        letter-spacing: 0.1em;
+        color: #FFFFFF;
+       margin-left: 12px;
+        
+        }
+        .round{
+            width: 144px;
+            position: absolute;
+            bottom: 0px;
+            right: 0px;
+            border-radius: 8.90681px;
+        }
+        .sos{
+            color: #ffffff;
+            padding: 10px;
+            font-size: 14px;
+            height: 35px;
+            width: 35px;
+            border-radius: 100%;
+            text-align: center;
+        }
+        .sos:hover{
+            background-color: #87C700;
+            padding: 10px;
+            color: #ffffff;
+            border-radius: 100px;
+              }
+              
+              .form-label{
+                font-weight: normal;
+                font-size: 12.2826px;
+                line-height: 15px;
+                text-align: justify;
+                color: #000000;
+              }
+              .form-control{
+                border-style: none !important;
+                border-bottom: 1.78136px solid #9F9F9F !important;
+                border-radius: 0px !important;
+                outline: none;
+                
+              }
+              .form-control:focus{
+                border-style: none !important;
+              }
+              .form-select{
+                border-style: none !important;
+                border-bottom: 1.78136px solid #9F9F9F !important;
+                border-radius: 0px !important;
+              }
+              .form-controlinput::-webkit-outer-spin-button,
+              input::-webkit-inner-spin-button {
+                -webkit-appearance: none;
+                margin: 0;
+              }
+              input[type=number] {
+                -moz-appearance: textfield;
+              }
+              
+              .btn-primary{
+                background: #29006B !important;
+
+              }
+              
+
+   
+

@@ -1,0 +1,465 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Righteous", cursive;
+}
+
+/* section1 CSS */
+.section1 {
+  background: linear-gradient(79.34deg, #5a00a2 1.87%, #05003a 34.63%);
+  color: white;
+  padding: 30px;
+  padding-bottom: 10%;
+  position: sticky;
+  top: 10%;
+  z-index: -1;
+}
+
+.section1-left {
+  margin-block: 30px;
+}
+#weare {
+  font-size: 60px;
+  letter-spacing: 2px;
+}
+
+.section1 .redLine1 {
+  margin-bottom: 10px;
+  width: 25%;
+  height: 3px;
+}
+
+#aboutTxt {
+  font-family: Righteous;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 87px;
+  line-height: 108px;
+  letter-spacing: 0.05em;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #87c700;
+  color: transparent;
+}
+
+#us {
+  color: #87c700;
+}
+
+.section1 .aboutImg1 {
+  margin-top: 70px;
+  position: absolute;
+  width: 120%;
+  left: -70px;
+  top: -20px;
+}
+
+/* Section-2 css */
+.section2 {
+  background-color: #f5f5f5;
+  padding-block: 75px;
+}
+
+.section2 .redLine2 {
+  margin-bottom: 10px;
+  width: 15%;
+  height: 3px;
+}
+#para1 {
+  text-align: justify;
+  color: #696969;
+  font-size: 16px;
+  line-height: 30px;
+  word-spacing: 5px;
+  letter-spacing: 1px;
+  padding-left: 20px;
+}
+
+/* section3  */
+.section3 .aboutImg2 {
+  margin-top: -12em;
+  width: 90%;
+}
+
+#para {
+  padding-block: 80px;
+  padding-left: 20px;
+  font-size: 16px;
+  line-height: 30px;
+  word-spacing: 5px;
+  letter-spacing: 1px;
+  text-indent: 30%;
+  text-align: justify;
+}
+
+#para::first-letter {
+  color: #c60021;
+  font-size: 30px;
+}
+
+.section3 {
+  background: linear-gradient(135deg, #e3e3e3, #f4f4f4 98.46%);
+}
+
+/* section4 CSS */
+.section4 {
+  background-color: #fff;
+  padding-top: 100px;
+  padding-bottom: 250px;
+}
+
+.section4 .section4Text {
+  text-align: end;
+  color: black;
+}
+
+#society {
+  color: #87c700;
+}
+
+.Social-Img {
+  margin-top: -12em;
+}
+
+/* flip css starts here */
+.wrapper {
+  margin-top: 100%;
+  height: 100%;
+  width: 100%;
+  border: 1px solid #000;
+}
+
+.FlipContainer {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  perspective: 800px;
+  perspective-origin: 100%;
+  overflow: visible;
+}
+
+.image-cube {
+  width: 100%;
+  height: 100%;
+}
+
+.cube1 {
+  transform-style: preserve-3d;
+  position: relative;
+  animation: spin 12s linear 4s infinite;
+}
+
+.cube2 {
+  transform-style: preserve-3d;
+  position: relative;
+  animation: spin2 14s linear infinite;
+}
+
+.cube3 {
+  transform-style: preserve-3d;
+  position: relative;
+  animation: spin3 10s linear 2s infinite;
+}
+
+.cube4 {
+  transform-style: preserve-3d;
+  position: relative;
+  animation: spin4 11s linear infinite;
+}
+
+.cube5 {
+  transform-style: preserve-3d;
+  position: relative;
+  animation: spin5 13s linear 1s infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotateY(0deg);
+  }
+
+  20% {
+    transform: rotateY(0deg);
+  }
+
+  40% {
+    transform: rotateY(180deg);
+  }
+
+  60% {
+    transform: rotateY(180deg);
+  }
+
+  80% {
+    transform: rotateY(360deg);
+  }
+
+  100% {
+    transform: rotateY(360deg);
+  }
+}
+
+@keyframes spin2 {
+  0% {
+    transform: rotateY(0deg);
+  }
+
+  20% {
+    transform: rotateY(0deg);
+  }
+
+  40% {
+    transform: rotateY(180deg);
+  }
+
+  60% {
+    transform: rotateY(180deg);
+  }
+
+  80% {
+    transform: rotateY(360deg);
+  }
+
+  100% {
+    transform: rotateY(360deg);
+  }
+}
+
+@keyframes spin3 {
+  0% {
+    transform: rotateY(0deg);
+  }
+
+  20% {
+    transform: rotateY(0deg);
+  }
+
+  40% {
+    transform: rotateY(180deg);
+  }
+
+  60% {
+    transform: rotateY(180deg);
+  }
+
+  80% {
+    transform: rotateY(360deg);
+  }
+
+  100% {
+    transform: rotateY(360deg);
+  }
+}
+
+@keyframes spin4 {
+  0% {
+    transform: rotateY(0deg);
+  }
+
+  20% {
+    transform: rotateY(0deg);
+  }
+
+  40% {
+    transform: rotateY(180deg);
+  }
+
+  60% {
+    transform: rotateY(180deg);
+  }
+
+  80% {
+    transform: rotateY(360deg);
+  }
+
+  100% {
+    transform: rotateY(360deg);
+  }
+}
+
+@keyframes spin5 {
+  0% {
+    transform: rotateY(0deg);
+  }
+
+  20% {
+    transform: rotateY(0deg);
+  }
+
+  40% {
+    transform: rotateY(180deg);
+  }
+
+  60% {
+    transform: rotateY(180deg);
+  }
+
+  80% {
+    transform: rotateY(360deg);
+  }
+
+  100% {
+    transform: rotateY(360deg);
+  }
+}
+
+.image-cube div {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  backface-visibility: hidden;
+}
+
+.flipImg {
+  width: 100%;
+}
+
+.back {
+  transform: rotateY(180deg);
+}
+
+/* flip ends */
+
+/* =========================== MEDIA QUERIES FOR MOBILE =============================== */
+
+@media only screen and (max-width: 600px) {
+  /* section1 CSS */
+  .section1 {
+    padding: 20px;
+  }
+  .section1-left {
+    margin-block: 0px;
+  }
+  #weare {
+    font-size: 35px;
+    letter-spacing: 2px;
+  }
+
+  .section1 .about-dec {
+    font-size: 13px;
+    letter-spacing: 1.5px;
+    word-spacing: 3px;
+  }
+
+  #aboutTxt {
+    font-size: 60px;
+    line-height: 55px;
+    margin-top: 0px;
+  }
+
+  .section1 .aboutImg1 {
+    margin-top: -30px;
+    position: static;
+    width: 100%;
+  }
+
+  /* Section-2 css */
+  .section2 {
+    margin-top: 5rem;
+    padding-block: 25px;
+  }
+  #para1 {
+    font-size: 12px;
+    line-height: 18px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    padding-left: 0px;
+  }
+
+  /* section3  */
+  .section3 .aboutImg2 {
+    margin-top: -3em;
+    width: 70%;
+  }
+
+  #para {
+    padding-block: 10px;
+    padding-left: 0px;
+    font-size: 12px;
+    line-height: 25px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+  }
+
+  /* section4 CSS */
+  .section4 {
+    padding-block: 50px;
+  }
+  .Social-Img {
+    margin-top: -5em;
+    margin-bottom: 5em;
+  }
+}
+
+/* =========================== MEDIA QUERIES FOR IPAD =============================== */
+
+@media only screen and (min-width: 650px) and (max-width: 900px) {
+  /* section1 CSS */
+  .section1 {
+    padding: 20px;
+  }
+  .section1-left {
+    margin-block: 0px;
+  }
+  #weare {
+    font-size: 35px;
+    letter-spacing: 2px;
+  }
+
+  .section1 .about-dec {
+    font-size: 13px;
+    letter-spacing: 1.5px;
+    word-spacing: 3px;
+  }
+
+  #aboutTxt {
+    font-size: 60px;
+    line-height: 55px;
+    margin-top: 0px;
+  }
+
+  .section1 .aboutImg1 {
+    margin-top: 70px;
+    position: absolute;
+    width: 120%;
+    left: -70px;
+    top: -20px;
+  }
+
+  /* Section-2 css */
+  .section2 {
+    padding-block: 25px;
+  }
+  #para1 {
+    font-size: 12px;
+    line-height: 18px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    padding-left: 0px;
+  }
+
+  /* section3  */
+  .section3 .aboutImg2 {
+    margin-top: -3em;
+    width: 90%;
+  }
+
+  #para {
+    padding-block: 10px;
+    padding-left: 0px;
+    font-size: 12px;
+    line-height: 25px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+  }
+
+  /* section4 CSS */
+  .section4 {
+    padding-block: 50px;
+  }
+  .Social-Img {
+    margin-top: -5em;
+    margin-bottom: 5em;
+  }
+}
